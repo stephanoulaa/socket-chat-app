@@ -1,0 +1,27 @@
+body {
+    background-color: palevioletred;
+}
+
+.row {
+    margin-left: 225px;
+    padding-top: 10px;
+}
+
+#header {
+    text-align: center;
+}
+
+#header2 {
+    text-align: center;
+    color: dimgray;
+}
+
+.image {
+    text-align: center;
+}
+
+#colorado {
+    height: 40%;
+    width: 40%;
+    opacity: .7;
+}

@@ -1,0 +1,37 @@
+body {
+    background: palevioletred; /* For browsers that don't support gradients */
+    background: -webkit-linear-gradient(left, palevioletred, thistle);
+    background: -o-linear-gradient(right, palevioletred, thistle);
+    background: -moz-linear-gradient(right, palevioletred, thistle);
+    background: linear-gradient(to right, palevioletred, thistle); 
+/*    background-color: palevioletred;*/
+}
+
+#header {
+    text-align: center;
+    color: salmon;
+    font-family: Courier New;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px skyblue;
+}
+
+#header2 {
+    color: skyblue;
+    font-family: Courier New;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px salmon;
+}
+
+#loggedInUsers {
+    color: violet;
+    font-family: Courier New;
+}
+
+.row {
+    margin-left: 225px;
+    padding-top: 100px;
+}
+
+.col-md-6 .dash-text {
+    border: 5px double hotpink;
+}
